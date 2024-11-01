@@ -1,10 +1,10 @@
 # Basic site settings
-site_name: "Example Documentation"
-site_description: "A comprehensive guide for Example Documentation"
-site_author: "Your Name"
+site_name: "Example Doasdasdsadcumentation"
+site_description: "A compasdasdrehensive guide for Example Documentation"
+site_author: "Your sadasdasdName"
 
 # Repository links for editing and viewing the docs
-repo_url: https://github.com/moonsol124/asdfadsf
+repo_url: https://github.com/moonsol124/doc-test
 edit_uri: edit/main/myDocs # Adjust path if your docs are in a different directory in the repo
 
 # Custom docs directory
