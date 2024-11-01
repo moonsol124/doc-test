@@ -1,0 +1,29 @@
+# Basic site settings
+site_name: "Example Documentation"
+site_description: "A comprehensive guide for Example Documentation"
+site_author: "Your Name"
+
+# Repository links for editing and viewing the docs
+repo_url: https://github.com/moonsol124/asdfadsf
+edit_uri: edit/main/myDocs # Adjust path if your docs are in a different directory in the repo
+
+# Custom docs directory
+docs_dir: myDocs # This specifies the directory containing your Markdown files
+
+# Navigation structure for the documentation site
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Overview: getting-started/overview.md
+      - Installation: getting-started/installation.md
+  - Tutorials:
+      - Tutorial 1: tutorials/tutorial1.md
+      - Tutorial 2: tutorials/tutorial2.md
+  - API Reference: api-reference.md
+  - "Code Sample": code/code-sample.md
+  - Extensions: extensions.md
+
+# Plugins to enhance MkDocs functionality
+plugins:
+  - techdocs-core # Essential for integrating with Backstage TechDocs
+  - search # Built-in search functionality
