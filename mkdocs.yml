@@ -12,16 +12,8 @@ docs_dir: myDocs # This specifies the directory containing your Markdown files
 
 # Navigation structure for the documentation site
 nav:
-  - Home: index.md
-  - Getting Started:
-      - Overview: getting-started/overview.md
-      - Installation: getting-started/installation.md
-  - Tutorials:
-      - Tutorial 1: tutorials/tutorial1.md
-      - Tutorial 2: tutorials/tutorial2.md
-  - API Reference: api-reference.md
-  - "Code Sample": code/code-sample.md
-  - Extensions: extensions.md
+  - Home:
+      - This is some Test: "Home/test.md"
 
 # Plugins to enhance MkDocs functionality
 plugins:
